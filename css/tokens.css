@@ -1,0 +1,83 @@
+
+:root {
+  /* base palette */
+  --color-cream: #F3ECE0;
+  --color-ink: #2B2118;
+  --color-gold-dark: #8A6A2F;
+  --color-gold: #C9A24B;
+  --color-gold-light: #D8B978;
+  --color-olive: #4A5A3D;
+  --color-beige: #E4D9C4;
+  --color-beige-border: #D8C9AC;
+  --color-text-muted: #5A5044;
+  --color-text-faint: #8A7A63;
+  --color-input-bg: #F9F5EC;
+  --color-error: #B23B3B;
+  --color-white: #FFFFFF;
+
+  /* semantic aliases */
+  --bg-page: var(--color-cream);
+  --bg-surface: var(--color-white);
+  --bg-inverse: var(--color-ink);
+  --bg-secondary: var(--color-beige);
+  --bg-input: var(--color-input-bg);
+
+  --text-primary: var(--color-ink);
+  --text-inverse: var(--color-cream);
+  --text-muted: var(--color-text-muted);
+  --text-faint: var(--color-text-faint);
+  --text-accent: var(--color-gold-dark);
+  --text-accent-inverse: var(--color-gold-light);
+  --text-error: var(--color-error);
+
+  --border-subtle: var(--color-beige-border);
+  --border-accent: var(--color-gold);
+
+  --accent-primary: var(--color-olive);
+  --accent-gold: var(--color-gold);
+
+  --shadow-color: rgba(43, 33, 24, 0.08);
+
+  /* spacing */
+  --space-1: 8px;
+  --space-2: 16px;
+  --space-3: 32px;
+  --space-4: 64px;
+  --space-5: 96px;
+
+  --radius-none: 0px;
+  --radius-sm: 6px;
+  --radius-md: 16px;
+  --radius-full: 999px;
+
+  --shadow-card: 0 12px 30px var(--shadow-color);
+  --shadow-lifted: 0 20px 50px var(--shadow-color);
+
+  /* typography */
+  --font-display: 'Playfair Display', serif;
+  --font-script: 'Alex Brush', cursive;
+  --font-body: 'Poppins', sans-serif;
+
+  --text-eyebrow: 24px;
+  --text-h1: 48px;
+  --text-h1-lg: 64px;
+  --text-h2: 32px;
+  --text-body-lg: 24px;
+  --text-body: 17px;
+  --text-body-sm: 15px;
+  --text-caption: 13px;
+
+  --tracking-eyebrow: 6px;
+  --tracking-label: 2px;
+  --tracking-wide: 4px;
+
+  --weight-light: 300;
+  --weight-regular: 400;
+  --weight-medium: 500;
+  --weight-semibold: 600;
+
+  --leading-tight: 1.1;
+  --leading-heading: 1.25;
+  --leading-body: 1.7;
+  --leading-body-loose: 1.8;
+}

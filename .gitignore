@@ -1,0 +1,8 @@
+# Relatórios internos (não publicar)
+relatorios/
+
+# Imagens originais em alta resolução — a página usa as versões .webp
+img/*.jpg
+img/*.jpeg
+img/monograma-rg.png
+!img/og-image.jpg
